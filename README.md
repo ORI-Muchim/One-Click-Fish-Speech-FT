@@ -80,7 +80,7 @@ pip install -r requirements.txt
     ├── 38.79-40.85.lab
     └── 38.79-40.85.mp3
 ```
-You need to convert your dataset into the above format and place it under data. The audio file can have the extensions .mp3, .wav, or .flac, and the annotation file should have the extensions .lab.
+You need to convert your dataset into the above format and place it under data. The audio file can have the extensions .mp3, .wav, or .flac, and the annotation file should have the extensions .lab. Using finetune.py will automatically create a .lab file.
 
 ---
 
